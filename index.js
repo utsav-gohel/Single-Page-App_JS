@@ -30,35 +30,35 @@ sprtsheading.addEventListener("mouseleave", () => {
   sprtsheading.style.background = "";
 });
 
-let service = document.getElementById("service");
-service.addEventListener("mouseover", () => {
-  service.style.background = "#daa520";
+let serviceTag = document.getElementById("service");
+serviceTag.addEventListener("mouseover", () => {
+  serviceTag.style.background = "#daa520";
 });
-service.addEventListener("mouseleave", () => {
-  service.style.background = "";
-});
-
-let sec1 = document.getElementById("sec-1");
-sec1.addEventListener("mouseover", () => {
-  sec1.style.color = "#c71585";
-});
-sec1.addEventListener("mouseleave", () => {
-  sec1.style.color = "";
+serviceTag.addEventListener("mouseleave", () => {
+  serviceTag.style.background = "";
 });
 
-let sec2 = document.getElementById("sec-2");
-sec2.addEventListener("mouseover", () => {
-  sec2.style.color = "#ffa07a";
+let battingSection = document.getElementById("battingSection");
+battingSection.addEventListener("mouseover", () => {
+  battingSection.style.color = "#c71585";
 });
-sec2.addEventListener("mouseleave", () => {
-  sec2.style.color = "";
+battingSection.addEventListener("mouseleave", () => {
+  battingSection.style.color = "";
 });
-let sec3 = document.getElementById("sec-3");
-sec3.addEventListener("mouseover", () => {
-  sec3.style.color = "#00ced1";
+
+let BowlingSection = document.getElementById("BowlingSection");
+BowlingSection.addEventListener("mouseover", () => {
+  BowlingSection.style.color = "#ffa07a";
 });
-sec3.addEventListener("mouseleave", () => {
-  sec2.style.color = "";
+BowlingSection.addEventListener("mouseleave", () => {
+  BowlingSection.style.color = "";
+});
+let FieldingSection = document.getElementById("FieldingSection");
+FieldingSection.addEventListener("mouseover", () => {
+  FieldingSection.style.color = "#00ced1";
+});
+FieldingSection.addEventListener("mouseleave", () => {
+  FieldingSection.style.color = "";
 });
 
 let dravidQuote = document.getElementById("dravidQuote");
